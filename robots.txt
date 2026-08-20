@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-Disallow: /bin/
-Sitemap: https://edenstack.github.io/sitemap.xml

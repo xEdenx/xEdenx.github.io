@@ -8,6 +8,7 @@
     <text x="108" y="258" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="54" font-weight="700" letter-spacing="2">KERNEL PANIC_</text>
     <text x="111" y="316" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="1.4" fill="#566238">SYSTEMS · AI · CONTEXT · TOOLS · HONEST FAILURE</text>
     <text x="111" y="445" font-size="31" font-style="italic">O ever youthful, O ever weeping.</text>
-    <text x="111" y="520" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" letter-spacing="2" fill="#566238">XEDENX.GITHUB.IO</text>
+    <text x="111" y="544" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.8" fill="#566238" fill-opacity=".38">XEDENX.GITHUB.IO</text>
+    <path d="M111 556h228" stroke="#566238" stroke-dasharray="1 7" stroke-opacity=".28"/>
   </g>
 </svg>

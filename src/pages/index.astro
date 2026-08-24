@@ -1,5 +1,6 @@
 ---
 import { type CollectionEntry } from "astro:content";
+import BrandMark from "@/components/BrandMark.astro";
 import PostPreview from "@/components/blog/PostPreview.astro";
 import SocialList from "@/components/SocialList.astro";
 import { getAllPosts } from "@/data/post";
@@ -23,8 +24,9 @@ const pinnedPosts = allPostsByDate
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="title mb-12">Eden</h1>
+		<h1 class="mb-5"><BrandMark /></h1>
 		<p class="mb-4 italic">O ever youthful, O ever weeping.</p>
+		<p class="text-muted mb-8 font-mono text-sm">系统 · AI · 上下文 · 工具 · 诚实的失败</p>
 		<SocialList />
 	</section>
 	{

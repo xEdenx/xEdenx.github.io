@@ -125,6 +125,14 @@
 	.title {
 		@apply text-accent-2 text-2xl font-semibold;
 	}
+
+	.brand-mark__kernel {
+		color: var(--color-accent-2);
+	}
+
+	.brand-mark__cursor {
+		color: var(--color-accent);
+	}
 }
 
 @utility prose {

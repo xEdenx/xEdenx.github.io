@@ -1,0 +1,19 @@
+---
+interface Props {
+	compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+---
+
+<span
+	aria-label="Eden · KERNEL PANIC"
+	class:list={[
+		"brand-mark inline-flex items-baseline gap-x-2 whitespace-nowrap",
+		compact ? "text-base sm:text-lg" : "text-2xl sm:text-5xl",
+	]}
+>
+	<span class="brand-mark__eden font-semibold tracking-tight">Eden</span>
+	<span aria-hidden="true" class="brand-mark__divider text-muted">·</span>
+	<span class="brand-mark__kernel font-mono font-bold tracking-[0.08em]">KERNEL PANIC<span aria-hidden="true" class="brand-mark__cursor">_</span></span>
+</span>

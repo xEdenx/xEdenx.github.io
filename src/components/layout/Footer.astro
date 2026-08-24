@@ -8,7 +8,17 @@ const isHome = Astro.url.pathname === "/";
 <footer
 	class="text-muted mt-auto flex w-full flex-col items-center justify-center gap-y-2 pt-20 pb-4 text-center align-top font-semibold sm:flex-row sm:justify-between sm:text-xs"
 >
-	{!isHome && <div class="me-0 sm:me-4"><BrandMark compact /></div>}
+	<div class="me-0 sm:me-4">
+		{
+			isHome ? (
+				<span class="text-muted font-mono text-[10px] font-medium tracking-[0.18em] opacity-45" aria-label="Eden · KERNEL PANIC">
+					EDEN · KERNEL PANIC_
+				</span>
+			) : (
+				<BrandMark compact />
+			)
+		}
+	</div>
 	<nav aria-label="Footer" class="sm:divide-muted flex gap-x-2 sm:gap-x-0 sm:divide-x">
 		{
 			menuLinks.map((link) => (

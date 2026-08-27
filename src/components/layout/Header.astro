@@ -11,7 +11,7 @@ const isHome = Astro.url.pathname === "/";
 <header
 	class:list={[
 		"group relative flex items-center",
-		isHome ? "mb-12 sm:mb-14" : "mb-28",
+		isHome ? "mb-12 sm:mb-14" : "mb-8 sm:mb-10",
 		!isHome && siteConfig.showLogo && "sm:ps-18",
 	]}
 	id="main-header"

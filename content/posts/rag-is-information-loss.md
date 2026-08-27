@@ -1,7 +1,7 @@
 ---
 title: RAG 最危险的地方，不是召回不准
 description: RAG 在模型调用前制造信息损失，再让模型为丢失后的上下文负责。
-publishDate: "2026-08-24 18:33:54"
+publishDate: 2026-06-20
 tags:
   - AI暴论
   - AI Engineering

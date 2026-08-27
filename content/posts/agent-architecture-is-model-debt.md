@@ -1,7 +1,7 @@
 ---
 title: 大部分 Agent Infra，会先于业务需求过期
 description: 模型短期能力的缺口，很容易被认真设计成长期系统。
-publishDate: 2026-08-24 10:00:00
+publishDate: 2026-06-04
 updatedDate: "2026-08-24 18:06:46"
 tags:
   - AI暴论
